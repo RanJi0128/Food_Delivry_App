@@ -16,10 +16,11 @@
  
  <div class="white_for_login">
     <div class="container margin_60">
-      <div class="col-md-offset-2 col-md-9">                
+      <div class="col-md-offset-2 col-md-9">  
+                 
         <div class="box_style_2">
-      <h2 class="inner">Order List</h2>
-      <table class="table table-striped nomargin">
+      <h2 class="inner">Order List</h2><div class="table-responsive">  
+      <table class="table table-striped nomargin" style="overflow-x:auto;">
       <tbody>
         <tr>
         <th>Date</th>
@@ -58,7 +59,7 @@
       </table>
       <br>
     </div>
-
+    </div> 
       </div>
     </div>
   </div>

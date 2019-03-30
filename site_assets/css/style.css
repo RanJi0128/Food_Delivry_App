@@ -1090,10 +1090,7 @@ a.remove_item:hover {
 	border: 2px solid #50a42f;
 	color: #50a42f;
 }
-
-
 /*<li><a class="flex-prev" href="#">Previous</a></li>*/
-
 .btn_full,
 a.btn_full {
 	background: #85c99d;
@@ -1253,11 +1250,9 @@ a:hover {
 
 .white_bg,
 a.load_more_bt:hover {
-	background: url("../img/col_bg.png") no-repeat ;
-	    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
+	background: #fff url("../img/col_bg.png") no-repeat fixed center top / 100% 100%;
 }
+
 .margin_60 {
 	padding-bottom: 60px;
 }
@@ -1982,10 +1977,10 @@ a.btn_1:hover {
 	padding: 0;
 }
 
-#list_shortcuts {
+/*#list_shortcuts {
 	text-align: center;
 }
-
+*/
 .zui-highlight {
 	font-size: 37px;
 	font-weight: 500;
@@ -7610,28 +7605,4 @@ footer .social_icons a {
 	background: #fff none repeat scroll 0 0;
 	border: 2px solid #7dbf18;
 	color: #7dbf18
-}
-
-.container-4 button.icon {
-	transition: none;
-}
-
-
-@media (min-width : 375) and (max-width: 600){
-     table tbody tr th {
-    border-right: 1px solid #ddd;
-    border-top: 1px solid #ddd;
-    line-height: 1.42857;
-    padding: 0px;
-    vertical-align: top;
-    font-size: 10px;
-	}
-	table tbody tr td{
-		border-right: 1px solid #ddd;
-	    border-top: 1px solid #ddd;
-	    line-height: 1.42857;
-	    padding: 0px;
-	    vertical-align: top;
-	    font-size: 10px;
-	}
 }

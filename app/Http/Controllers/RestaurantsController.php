@@ -22,7 +22,7 @@ class RestaurantsController extends Controller
     public function index(Request $request)    
     { 
         
-              
+            
         //$restaurants = Restaurants::orderBy('restaurant_name')->get();
 
         $restaurants = DB::table('restaurants')
@@ -86,7 +86,7 @@ class RestaurantsController extends Controller
               
         //$restaurants = Restaurants::orderBy('restaurant_name')->get();
         $inputs = $request->all();
-
+        
        $keyword = $inputs['search_keyword'];
        $restaurants = Restaurants::SearchByKeyword($keyword)->get();
 

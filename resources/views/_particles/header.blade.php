@@ -15,7 +15,7 @@
     </div>
   </div>
   <header class="sticky">
-    <div class="container">
+    <div class="container" style="width:100% !important">
       <div class="logo"> <a href="{{ URL::to('/') }}"><img src="{{ URL::asset('upload/'.getcong('site_logo')) }}" alt="" ></a> </div>
       <nav class="animenu">
       <button class="animenu_toggle"> 
